@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  api_users:
+    build:
+      context: .
+    image: rochel05/utilisateurs_api
+    container_name: utilisateurs_api
+    ports:
+      - 8081:8081
